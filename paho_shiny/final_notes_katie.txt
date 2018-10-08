@@ -1,0 +1,14 @@
+## notes for paho apps  
+
+# try to make country line thicker - done
+# links for bold text - katie to put links in
+# table image on right, text on left - done
+
+# monthly.cases on dygraph - done
+# final single timeseries black - done
+
+# time series legends in centre - done
+
+## stick one link in in the text in utility so katie can change - done
+
+move the utility constants that shouldnt be changed out of that script - done
