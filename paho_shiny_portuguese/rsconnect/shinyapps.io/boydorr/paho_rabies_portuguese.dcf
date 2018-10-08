@@ -1,0 +1,12 @@
+name: paho_rabies_portuguese
+title: paho_rabies_portuguese
+username:
+account: boydorr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 239689
+bundleId: 1097725
+url: https://boydorr.shinyapps.io/paho_rabies_portuguese/
+when: 1511740921.15889
+asMultiple: FALSE
+asStatic: FALSE
