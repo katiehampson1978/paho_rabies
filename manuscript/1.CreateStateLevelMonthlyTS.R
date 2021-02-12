@@ -4,15 +4,16 @@
 ## between Jan 1995 and now by country and by state.
 
 rm(list=ls())
-setwd("~/Dropbox/PAHO_RShiny")
+setwd("~/Github/paho_rabies/manuscript")
 
+## Libraries & R functions
 library(maptools)
 library(zoo)
 library(lubridate)
-source("~/Dropbox/PAHOsurveillance/Analysis/R/states_ts.R")
+source("R/states_ts.R")
 
 ## data
-dogs <- read.csv("~/Dropbox/PAHOsurveillance/Analysis/data/SIRVERA_dogs16(clean_statenames).csv")
+dogs <- read.csv("data/SIRVERA_dogs16(clean_statenames).csv")
 countries <- c("Mexico", "Brazil")
 
 ## set all dates from Jan 1995 to Dec 2015
@@ -22,7 +23,6 @@ dates <- strftime(strptime(dates, format="%Y-%m-%d"),"%Y-%m")
 
 ###-------------------------------Subset Cases Data-------------------------------###
 
-names <- countries
 for (l in 1:length(countries)){
   ## subset country and yrs of interest
   cn = countries[l]
