@@ -87,9 +87,11 @@ subnational levels towards elimination, and locally tailored management guidance
 (top right) for information on how to explore the site. Hover over a country on the map to show
 information about the country and cases detected since 2005 (right hand graph) in relation to cases
 across the region. Select a country to explore their situation in more detail (data currently only
-shown for Mexico and Brazil). For more information about this tool, download our study (top left),
-and for more information about the regional control programme visit the",
-tags$a(href = "http://www.panaftosa.org/redipra16/index.php?lang=en", strong("REDIPRA webpages.")),
+shown for Mexico and Brazil). For more information about this tool, download our",
+tags$a(href = "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-020-05457-x", strong("study")),
+" (top left), and for more information about the regional control programme visit the",
+tags$a(href = "http://www.panaftosa.org/redipra16/index.php?lang=en", strong("REDIPRA webpages.")), 
+" To reproduce our study visit our ", tags$a(href = "https://github.com/katiehampson1978/paho_rabies", strong("Github repository")),
 "",
 p(h5(tags$a(href = "https://boydorr.shinyapps.io/paho_rabies/", "English,          "),
   tags$a(href = "https://boydorr.shinyapps.io/paho_rabies_spanish/", "Spanish,          "),

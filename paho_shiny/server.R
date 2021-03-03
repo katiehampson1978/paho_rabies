@@ -281,10 +281,11 @@ function(input,output,session){
     }
   })
 
-  output$download = downloadHandler("www/Rysava_etal2020.pdf")
-    # filename = function(){
-    #   paste0("LAC_Rabies_Elimination_Classification",Sys.Date(),".pdf")
-    # }, content = function(file){
-    #   file.copy("www/LAC_Rabies_Elimination_Classification_MS.pdf", file)
-    # }
+  output$download = downloadHandler( 
+    filename = function(){
+      paste0("Rysava_etal2020_download",Sys.Date(),".pdf")
+    }, content = function(file){
+      file.copy("www/Rysava_etal2020.pdf", file)
+    }
+  )
 }

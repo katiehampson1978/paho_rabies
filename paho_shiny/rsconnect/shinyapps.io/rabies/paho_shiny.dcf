@@ -1,0 +1,12 @@
+name: paho_shiny
+title: paho_shiny
+username:
+account: rabies
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3731287
+bundleId: 4297342
+url: https://rabies.shinyapps.io/paho_shiny/
+when: 1614809820.11647
+asMultiple: FALSE
+asStatic: FALSE
