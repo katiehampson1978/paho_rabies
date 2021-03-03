@@ -11,6 +11,9 @@ options(stringsAsFactors = FALSE, dplyr.summarise.inform = FALSE)
 # Load shapefiles
 lac_shapefile <- read_sf("data/raw/Adm2_AMRO_Sep2013.shp")
 
+# create folder for processed data
+dir.create("data/processed")
+
 #----- Process and save shapefiles ---------------------------------------------
 
 # Subset shapefile for only Latin American countries

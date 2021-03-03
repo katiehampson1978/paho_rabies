@@ -287,5 +287,5 @@ function(input,output,session){
     }, content = function(file){
       file.copy("www/LAC_Rabies_Elimination_Classification_MS.pdf", file)
     }
-  )
+    )
 }

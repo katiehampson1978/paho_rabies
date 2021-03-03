@@ -20,6 +20,7 @@ source("utility.R")
 
 source("www/translate.R") # requried for spelling correction of names with foreign letters
 
+#world = readOGR("www/data/ShapeFiles/countries_shp/countries.shp", "countries")
 world = readOGR("www/data/ShapeFiles/countries_shp/countries.shp", "countries")
 LAC = readOGR("www/data/ShapeFiles/America_Adm_1/adm1_amro_lat_long.shp","adm1_amro_lat_long")
 ## keep only the world country polygons for latin america
